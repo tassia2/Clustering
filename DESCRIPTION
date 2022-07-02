@@ -1,0 +1,33 @@
+Package: Clustering
+Title: Clustering
+Version: 0.0.0.1
+Authors@R: 
+    c(person(given = "Tom",
+           family = "Schmid",
+           role = c("aut", "cre"),
+           email = "tom.schmid@edv-ecke.de"),
+    person(given = "Lydia",
+           family = "Rached",
+           role = c("aut"),
+           email = "rached@stud.uni-heidelberg.de"),
+    person(given = "Tassia",
+           family = "Heuser",
+           role = c("aut"),
+           email = "t.heuser@stud.uni-heidelberg.de"))
+Description: This package includes three different techniques 
+    for hard clustering, one for soft clustering, as well as two 
+    different methods for data simulation and one plot function to 
+    visualize the outputs of the cluster algorithms.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports:
+    ggplot2,
+    stats,
+    grDevices
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
